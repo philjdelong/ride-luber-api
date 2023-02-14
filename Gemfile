@@ -6,6 +6,9 @@ ruby "3.1.0"
 # Ruby API
 gem 'uber-ruby', require: 'uber'
 
+# Hide those vars!
+gem 'dotenv-rails', :groups => [:development, :test]
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.3"
 
